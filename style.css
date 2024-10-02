@@ -36,6 +36,10 @@ border-radius: 35px;
 background-size: cover;
 
 }
+.circle{
+    width: 35px;
+    height: 35px;
+}
 .bg-black{
     background-color: black;
 }
@@ -44,7 +48,7 @@ background-size: cover;
     border-radius: 15px;
     padding: 20px;
     transition: transform 0.3s ease;
-}
+ }
 
 .card-custom:hover {
     transform: translateY(-10px);
@@ -60,11 +64,6 @@ background-size: cover;
     color: #ffffff;
 }
 
-.card-icon {
-    font-size: 2rem;
-    margin-bottom: 15px;
-}
-
 .button-custom {
     background-color: #007bff;
     color: #ffffff;
@@ -78,4 +77,76 @@ background-size: cover;
 .button-custom:hover {
     background-color: #0056b3;
     color: #ffffff;
+    text-decoration: none;
+}
+.img-about{
+    max-width: 400px;
+    max-width: 350px;
+}
+.br-left{
+    border-radius: 35px 0 0 35px;
+}
+.br-right{
+    border-radius:  0 35px 35px 0;
+ }
+
+ @media (max-width:720px) {
+    .br-left{
+        border-radius: 35px 35px 0 0;
+    }
+    .br-right{
+        border-radius: 0 0 35px 35px;
+     }
+ }
+
+ .card-icon-wrapper {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 60px;
+    margin: 0 auto -100px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+    font-size: 2.5rem;
+}
+
+.card-content {
+    padding-top: 50px;
+}
+
+.team-section {
+    text-align: center;
+}
+
+.team-member {
+    display: flex;
+    justify-content: center;
+}
+
+.team-member-card {
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 300px;
+    color: #fff;
+}
+
+.member-photo {
+    width: 100px;
+    height: 100px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+}
+
+h5 {
+    margin-top: 15px;
 }
