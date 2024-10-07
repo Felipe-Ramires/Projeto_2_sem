@@ -30,7 +30,7 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
+                        <li class="nav-item nav-header">
                             <a class="nav-link" href="#inicio">Início</a>
                         </li>
                         <li class="nav-item">
@@ -47,15 +47,15 @@
             </div>
         </nav>
     </header>
-    <article>
-        <section>
+    <article id="inicio">
+        <section class="px-2">
             <div class="container text-center text-white bg-img d-flex justify-content-center flex-column">
                 <h1>Solução de TI para o seu negócio</h1>
                 <h6>Inovação em Tecnologia: Soluções Personalizadas para o Sucesso do Seu Negócio</h6>
             </div>
         </section>
         <section class="py-5">
-            <div class="container my-5  text-center">
+            <div class="container my-5  text-center" id="servicos">
                 <h6 class="text-primary">Nossos Serviços</h6>
                 <h1 class="text-white m-0">Nossa missão é tornar seu negócio <br>melhor por meio da tecnologia</h1>
             </div>
@@ -101,7 +101,7 @@
                 </div>
         </section>
         <section class="py-3">
-            <div class="container my-3 ">
+            <div class="container my-3 " id="sobre">
                 <div class="text-center text-white mb-5">
                     <h1>Sobre a empresa</h1>
                     <h3>Conheça nossa Missão, Visão e Valores</h3>
@@ -122,7 +122,7 @@
                     </div>
                 </div>
                 <div class="row g-4 justify-content-center my-5 py-5 text-center">
-                    <!-- Card Missão -->
+
                     <div class="col-md-4">
                         <div class="card-custom shadow bg-light ">
                             <div class="card-icon-wrapper bg-light ">
@@ -138,8 +138,7 @@
                         </div>
                     </div>
 
-                    <!-- Card Visão -->
-                    <div class="col-md-4">
+                    <div class="col-md-4 mgy-5">
                         <div class="card-custom shadow bg-light ">
                             <div class="card-icon-wrapper bg-light ">
                                 <span class="card-icon"><i class="fa-regular fa-eye" style="color: #000000;"></i></span>
@@ -153,7 +152,6 @@
                         </div>
                     </div>
 
-                    <!-- Card Valores -->
                     <div class="col-md-4">
                         <div class="card-custom shadow bg-light ">
                             <div class="card-icon-wrapper bg-light ">
@@ -171,56 +169,114 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div class="container ">
-                <div class="text-center text-white mb-5">
-                    <h1 class="m-0">Nossa Equipe</h1>
-                    <h6>Nossos dedicados membros da equipe</h6>
+        <section class="py-3 mb-5">
+
+            <div class="container text-center text-white" id="equipe">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold">Nossa Equipe</h2>
+                    <p>Nossos Dedicados Membros Da Equipe</p>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-4 mb-4 team-member">
-                        <div class="team-member-card">
-                            <div class="member-photo"></div>
-                            <h5>Membro 1</h5>
-                            <p>Descrição</p>
-                        </div>
+                <div class="row g-5">
+                    <!-- Membro 1 -->
+                    <div class="col-md-6 col-lg-3 d-flex flex-column align-items-center">
+                        <div class="rounded-circle bg-light" style="width: 100px; height: 100px;"></div>
+                        <h5 class="mt-3 text-white">Membro 1</h5>
+                        <p class="text-muted">Descrição</p>
                     </div>
-                    <div class="col-12 col-md-4 mb-4 team-member">
-                        <div class="team-member-card">
-                            <div class="member-photo"></div>
-                            <h5>Membro 2</h5>
-                            <p>Descrição</p>
-                        </div>
+
+                    <!-- Membro 2 -->
+                    <div class="col-md-6 col-lg-3 d-flex flex-column align-items-center">
+                        <div class="rounded-circle bg-light" style="width: 100px; height: 100px;"></div>
+                        <h5 class="mt-3 text-white">Membro 2</h5>
+                        <p class="text-muted">Descrição</p>
                     </div>
-                    <div class="col-12 col-md-4 mb-4 team-member">
-                        <div class="team-member-card">
-                            <div class="member-photo"></div>
-                            <h5>Membro 3</h5>
-                            <p>Descrição</p>
-                        </div>
+
+                    <!-- Membro 3 -->
+                    <div class="col-md-6 col-lg-3 d-flex flex-column align-items-center">
+                        <div class="rounded-circle bg-light" style="width: 100px; height: 100px;"></div>
+                        <h5 class="mt-3 text-white">Membro 3</h5>
+                        <p class="text-muted">Descrição</p>
                     </div>
-                    <div class="col-12 col-md-4 mb-4 team-member">
-                        <div class="team-member-card">
-                            <div class="member-photo"></div>
-                            <h5>Membro 4</h5>
-                            <p>Descrição</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container text-center my-5">
-                    <h4 class="text-white mb-4">Ferramentas Que Utilizamos</h4>
-                    <div class="d-flex justify-content-center gap-4">
-                        <img src="img/figma_logo.png" alt="Figma" style="width: 50px;">
-                        <img src="img/csharp_logo.png" alt="C" style="width: 50px;">
-                        <img src="img/html_logo.png" alt="HTML5" style="width: 50px;">
-                        <img src="img/css_logo.png" alt="CSS3" style="width: 50px;">
-                        <img src="img/js_logo.png" alt="JavaScript" style="width: 50px;">
-                        <img src="img/mysql_logo.png" alt="MySQL" style="width: 60px;">
+
+                    <!-- Membro 4 -->
+                    <div class="col-md-6 col-lg-3 d-flex flex-column align-items-center">
+                        <div class="rounded-circle bg-light" style="width: 100px; height: 100px;"></div>
+                        <h5 class="mt-3 text-white">Membro 4</h5>
+                        <p class="text-muted">Descrição</p>
                     </div>
                 </div>
+
+
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-3 d-flex flex-column align-items-center">
+                        <div class="rounded-circle bg-light" style="width: 100px; height: 100px;"></div>
+                        <h5 class="mt-3 text-white">Membro 5</h5>
+                        <p class="text-muted">Descrição</p>
+                    </div>
+
+                    <!-- Membro 2 -->
+                    <div class="col-md-6 col-lg-3 d-flex flex-column align-items-center">
+                        <div class="rounded-circle bg-light" style="width: 100px; height: 100px;"></div>
+                        <h5 class="mt-3 text-white">Membro 6</h5>
+                        <p class="text-muted">Descrição</p>
+                    </div>
+
+                    <!-- Membro 3 -->
+                    <div class="col-md-6 col-lg-3 d-flex flex-column align-items-center">
+                        <div class="rounded-circle bg-light" style="width: 100px; height: 100px;"></div>
+                        <h5 class="mt-3 text-white">Membro 7</h5>
+                        <p class="text-muted">Descrição</p>
+                    </div>
+
+                    <!-- Membro 4 -->
+                    <div class="col-md-6 col-lg-3 d-flex flex-column align-items-center">
+                        <div class="rounded-circle bg-light" style="width: 100px; height: 100px;"></div>
+                        <h5 class="mt-3 text-white">Membro 8</h5>
+                        <p class="text-muted">Descrição</p>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-12 d-flex flex-column align-items-center">
+                        <div class="rounded-circle bg-light" style="width: 100px; height: 100px;"></div>
+                        <h5 class="mt-3 text-white">Membro 9</h5>
+                        <p class="text-muted">Descrição</p>
+                    </div>
+
+                </div>
+
+                <hr>
+                <h4 class="text-white mb-4">Ferramentas Que Utilizamos</h4>
+                <div class="d-flex justify-content-center gap-4 mb-4">
+                    <img src="img/figma-logo.png" alt="Figma" style="width: 50px; height: 70px;">
+                    <img src="img/c_logo.png" alt="C" style="width: 60px;height: 70px;">
+                    <img src="img/html_logo.png" alt="HTML5" style="width: 60px;height: 70px;">
+                    <img src="img/css_logo.png" alt="CSS3" style="width: 60px;height: 70px;">
+                    <img src="img/js_logo.png" alt="JavaScript" style="width: 60px; height: 70px; ">
+                    <img src="img/mysql_logo.png" alt="MySQL" style="width: 60px;height: 70px;">
+                </div>
+            </div>
+            </div>
         </section>
     </article>
-
+    <footer class="bg-white p-5">
+        <section class="d-flex align-items-center flex-column">
+            <ul class="list-inline text-center">
+                <li class=" list-inline-item ">
+                    <a class="nav-link-footer nav-link" href="#inicio">Início</a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="nav-link-footer nav-link" href="#servicos">Serviços</a>
+                </li>
+                <li class=" list-inline-item">
+                    <a class="nav-link-footer nav-link" href="#sobre">Sobre</a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="nav-link-footer nav-link" href="#equipe">Equipe</a>
+                </li>
+            </ul>
+            <img src="img/LogoPreto.png" alt="" class="logo mb-2">
+        </section>
+    </footer>
 
 
 
@@ -249,7 +305,17 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <script>
-
+        document.querySelectorAll('a.nav-link').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                window.scrollTo({
+                    top: targetElement.offsetTop - 70,
+                    behavior: 'smooth'
+                });
+            });
+        });
     </script>
 </body>
 

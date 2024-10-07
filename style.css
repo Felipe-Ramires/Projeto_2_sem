@@ -29,18 +29,22 @@ body {
 .navbar-toggler {
     border-color: white;
 }
-.bg-img{
-background-image: url(img/ImgTI.png);
-height: 50vh;
-border-radius: 35px;
-background-size: cover;
 
+.bg-img {
+    background-image: url(img/ImgTI.png);
+    height: 50vh;
+    border-radius: 35px;
+    background-size: cover;
+    background-position: center;
+    
 }
-.circle{
+
+.circle {
     width: 35px;
     height: 35px;
 }
-.bg-black{
+
+.bg-black {
     background-color: black;
 }
 
@@ -48,7 +52,7 @@ background-size: cover;
     border-radius: 15px;
     padding: 20px;
     transition: transform 0.3s ease;
- }
+}
 
 .card-custom:hover {
     transform: translateY(-10px);
@@ -79,27 +83,34 @@ background-size: cover;
     color: #ffffff;
     text-decoration: none;
 }
-.img-about{
+
+.img-about {
     max-width: 400px;
     max-width: 350px;
 }
-.br-left{
+
+.br-left {
     border-radius: 35px 0 0 35px;
 }
-.br-right{
-    border-radius:  0 35px 35px 0;
- }
 
- @media (max-width:720px) {
-    .br-left{
+.br-right {
+    border-radius: 0 35px 35px 0;
+}
+
+@media (max-width:720px) {
+    .br-left {
         border-radius: 35px 35px 0 0;
     }
-    .br-right{
-        border-radius: 0 0 35px 35px;
-     }
- }
 
- .card-icon-wrapper {
+    .br-right {
+        border-radius: 0 0 35px 35px;
+    }
+    .mgy-5{
+        margin:3rem 0 3rem 0 ;
+    }
+}
+
+.card-icon-wrapper {
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -149,4 +160,20 @@ background-size: cover;
 
 h5 {
     margin-top: 15px;
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+.nav-link-footer {
+    color: rgb(0, 0, 0) !important;
+    margin-right: 15px;
+    font-size: 1.1rem;
+    
+}
+
+.nav-link-footer:hover {
+    color: #007bff !important;
+    text-decoration: none;
 }
